@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 const firebase = require('firebase');
-const db = firebase.firestore();
+import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -15,13 +15,18 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+const apps = express();
 
-
-// Exemple de création d'un document
-db.collection('users').doc('user1').set({
+const db = firebase.firestore();
+db.collection('users').add({
   name: 'John Doe',
-  email: 'johndoe@example.com',
+  age: 30,
+  email: 'johndoe@example.com'
+})
+.then(docRef => {
+  console.log('Le document a été ajouté avec succès avec ID : ', docRef.id);
+})
+.catch(error => {
+  console.error('Erreur lors de l\'ajout du document : ', error);
 });
-
-
