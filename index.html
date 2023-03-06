@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <script src="js/index.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="owl-carousel/owl.carousel.min.js"></script>
+  <title>Document</title>
+  </head>
+  <body class="bg-light">
+
+  <header id="my-header">
+    <!-- Menu supérieur -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+  <div class="container d-flex justify-content-between">
+    <a class="navbar-brand" href="#" style="margin-right: 50px;">Nom du site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <form class="form-inline my-2 my-lg-0 mr-lg-5">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Rechercher" aria-label="Rechercher" style="width: 400px;">
+        <button class="btn btn-outline-warning my-2 my-sm-0 " type="submit">Rechercher</button>
+      </form>
+   
+   
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <button class="btn btn-outline-warning text-white" type="button">Vente en cours</button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-warning text-white ml-lg-3" type="button">Se connecter</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Menu de navigation général -->
+
+ <nav class="navbar navbar-expand-lg text-white" style="background-color: black;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACHETER AUX ENCHERES
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+          <div class="row">
+            <div class="col-sm-4">
+              <h5>Art</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Peinture</a></li>
+                <li><a href="#">Sculpture</a></li>
+                <li><a href="#">Gravure</a></li>
+                <li><a href="#">Photographie</a></li>
+              </ul>
+              <h5>Ameublement</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Mobilier</a></li>
+                <li><a href="#">Tapis et Peinture</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <h5>Bijoux</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Or</a></li>
+                <li><a href="#">Argent</a></li>
+                <li><a href="#">Diamants</a></li>
+                <li><a href="#">Pierres précieuses</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <h5>Mobilier</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Chaises</a></li>
+                <li><a href="#">Tables</a></li>
+                <li><a href="#">Armoires</a></li>
+                <li><a href="#">Lits</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         VENDRE
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown2">
+          <div class="row">
+            <div class="col-sm-6">
+              <h5>Estimation</h5>
+              <p> & C'est facile.Faites estimer votre bien par un commissaire-priseur près de chez vous. Ce service d'estimation est sans engagement.
+
+              </p>
+            
+              <button type="submit" class="btn btn-warning"> Trouver une journée d'expertise</button>
+            </div>
+            <div class="col-sm-6">
+              <h5>Le résultat des ventes</h5>
+              <p> & C'est instantané.Retrouvez ici les résultats partagés par les commissaires-priseurs pour leurs ventes passées.</p>
+              <button type="submit" class="btn btn-warning"> Voir les résultats des ventes</button>
+            </div>
+          </div>
+        </div> 
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">TROUVER UNE MAISON DE VENTES</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">LE MAGAZINE DES ENCHERES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+
+      </ul>
+  </div>
+ 
+</nav>   
+<!-- fin Menu général -->
+
+<!-- HEADER -->
+<!-- CONTENT -->
+
+<div class="container-fluid bg-light text-black-50">
+ <div class="container m-auto mb-5 mb-5">
+		<!-- Insérer une image avec un titre centré -->
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/portfolio/thumb-03.jpg" class="d-block w-100" alt="Image 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Le site n°1 des ventes aux enchères en Afrique </h5>
+        <p>Description de l'image 1</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel-01.jpg" class="d-block w-100" alt="Image 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Le site n°1 des ventes aux enchères en Afrique</h5>
+        <p>Description de l'image 2</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel-03.jpg" class="d-block w-100" alt="Image 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Le site n°1 des ventes aux enchères en Afrique</h5>
+        <p>Description de l'image 3</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+ <br>
+ <br> 
+
+    
+    <!-- Créer une liste de catégories -->
+		<div class="my-4">
+			<h2>Catégories</h2>
+			<div class="row text-dark">
+        
+				<!-- Ajouter quatre autres cartes identiques pour les autres catégories -->
+				<div class="col-md-3 mb-4">
+					<div class="card">
+					<a href="#">
+            <img src="img/img-01.jpg" alt="Image 2" class="card-img-top">
+           <div class="card-body">
+	          <h5 class="card-title">Montres</h5>
+            </div>
+          </a>
+          </div>
+				</div>
+        <div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/img-05.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Mode et Bijoux</h5>
+    </div>
+  </a>
+  </div>
+</div><div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/img-06.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Ameublement</h5>
+    </div>
+  </a>
+  </div>
+</div><div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/img-04.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Art et décoration</h5>
+    </div>
+  </a>
+  </div>
+</div>
+</div>
+
+              
+				<!-- Ajouter les trois autres cartes identiques pour les autres catégories -->
+			</div>
+			<!-- Répéter les deux dernières lignes pour les autres catégories -->
+
+    			<div class="row">
+        
+				<!-- Ajouter quatre autres cartes identiques pour les autres catégories -->
+				<div class="col-md-3 mb-4">
+					<div class="card">
+					<a href="#">
+            <img src="img/carousel-01.jpg" alt="Image 2" class="card-img-top">
+           <div class="card-body">
+	          <h5 class="card-title">Collections</h5>
+            </div>
+          </a>
+          </div>
+				</div>
+        <div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/carousel-02.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Vin et spiritueux</h5>
+    </div>
+  </a>
+  </div>
+</div><div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/carousel-03.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Jouets</h5>
+    </div>
+  </a>
+  </div>
+</div><div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/portfolio/thumb-02.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Musics</h5>
+    </div>
+  </a>
+  </div>
+
+</div>
+			<div class="row">
+        
+				<!-- Ajouter quatre autres cartes identiques pour les autres catégories -->
+				<div class="col-md-3 mb-4">
+					<div class="card">
+					<a href="#">
+            <img src="img/portfolio/thumb-02.jpg" alt="Image 2" class="card-img-top">
+           <div class="card-body">
+	          <h5 class="card-title">Voiture de sport et de collection</h5>
+            </div>
+          </a>
+          </div>
+				</div>
+        <div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/portfolio/thumb-04.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Autres Véhicules et Engins</h5>
+    </div>
+  </a>
+  </div>
+</div><div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/portfolio/thumb-06.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Informatique et Téléphonie</h5>
+    </div>
+  </a>
+  </div>
+</div><div class="col-md-3 mb-4">
+	<div class="card">
+	<a href="#">
+    <img src="img/portfolio/thumb-07.jpg" alt="Image 2" class="card-img-top">
+   <div class="card-body">
+    <h5 class="card-title">Art et décoration</h5>
+    </div>
+  </a>
+  </div>
+</div>
+</div>
+
+              
+				<!-- Ajouter les trois autres cartes identiques pour les autres catégories -->
+			</div>
+			<!-- Répéter les deux dernières lignes pour les autres catégories -->
+</div>
+
+              
+				<!-- Ajouter les trois autres cartes identiques pour les autres catégories -->
+			</div>
+			<!-- Répéter les deux dernières lignes pour les autres catégories -->
+        
+		</div>
+
+
+
+
+  <!-- Banière -->
+  <!-- Insérer une image avec un titre centré -->
+	
+  
+  <!-- Banière -->
+
+  <!-- Catégorie-->
+
+
+
+  <!-- Catégorie -->
+  <!-- Les lots plébiscités -->
+  <h2 class="container">Les lots plébiscités</h2>
+  <div class="container owl-carousel my-5">
+  <div class="card">
+    <img src="img/carousel-01.jpg" class="card-img-top" alt="...">
+    <span class="badge badge-warning text-white  position-absolute top-0 start-50 p-2 ">
+     En Live
+    </span>
+    <div class="card-body">
+      <h5 class="card-title">Montre VERSACE</h5>
+      <h6 class="card-text text-warning">Prix d'enchère : 68$</h6>
+      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?</p>
+      <a href="#" class="btn btn-warning text-white">Déposer une enchère</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/carousel-02.jpg" class="card-img-top position-relative badge-warning" alt="...">
+    <span class="badge badge-warning text-white  position-absolute top-0 start-50 p-2 ">
+    En Live
+    </span>
+    <div class="card-body">
+      <h5 class="card-title">Iphone 13 Pro MAx</h5>
+      <h6 class="card-text text-warning">Prix d'enchère : 68$</h6>
+      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?</p>
+      <a href="#" class="btn btn-warning text-white">Déposer une enchère</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/carousel-03.jpg" class="card-img-top" alt="...">
+    <span class="badge badge-warning text-white  position-absolute top-0 start-50 p-2 ">
+    En Live
+    </span>
+    <div class="card-body">
+      <h5 class="card-title">LENOVO Laptop </h5>
+      <h6 class="card-text text-warning">Prix d'enchère : 68$</h6>
+      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?</p>
+      <a href="#" class="btn btn-warning text-white">Déposer une enchère</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/bricker-templates.png" class="card-img-top" alt="...">
+    <span class="badge badge-warning text-white position-absolute top-0 start-50 p-2 ">
+    En Live
+    </span>
+   <div class="card-body">
+     <h5 class="card-title">Samsung S8</h5>
+     <h6 class="card-text text-warning">Prix d'enchère : 68$</h6>
+     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?</p>
+     <a href="#" class="btn btn-warning text-white">Déposer une enchère</a>
+   </div>
+  </div>
+</div>
+
+  <!-- Les lots plébiscités -->
+
+  <!-- Ils parlent de nous -->
+ <h2 class="container  mt-5 pt+5">Ils parlent de nous</h2>
+  <div id="container testimonial-carousel" class="carousel slide p-5 mb-lg-5 bg-light" data-ride="carousel ">
+  <div class="container carousel-inner bg-white">
+    <div class="carousel-item active">
+      <p>« Je suis tellement reconnaissant pour les services de cette entreprise. Ils ont résolu mon problème rapidement et efficacement, et leur personnel était sympathique et professionnel tout au long du processus. Je recommande vivement cette entreprise à tous ceux qui ont besoin d'un service de qualité. »</p>
+      <h3 class="text-right text-black-50">John Doe</h3>
+      
+    </div>
+    <div class="carousel-item">
+      <p>« J'ai été extrêmement impressionné par la qualité du travail fourni par cette entreprise. Leur équipe a fait preuve d'un grand professionnalisme et a travaillé dur pour s'assurer que tout était parfaitement fait. Je recommande vivement leurs services à quiconque cherche une entreprise fiable et compétente. »</p>
+      <h3 class="text-right text-black-50">Jane Smith</h3>
+      
+    </div>
+    <div class="carousel-item">
+      <p>« Je suis très heureux d'avoir choisi cette entreprise pour mon projet. Leur équipe était très compétente et leur service était exceptionnel. Ils ont travaillé rapidement et efficacement pour répondre à mes besoins, et le résultat final était exactement ce que je cherchais. Je recommande fortement cette entreprise. »</p>
+      <h3 class="text-right text-black-50">Bob Johnson</h3>
+      
+    </div>
+  </div>
+  <a class="carousel-control-prev " href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Précédent</span>
+  </a>
+  <a class="carousel-control-next " href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Suivant</span>
+  </a>
+</div>
+
+
+  <!-- Ils parlent de nous -->
+  <!-- Les magazines des enchères -->
+ 
+  <div class="container py-5">
+     <h2>Les magazines des enchères</h2>
+    <div class="row ">
+      <div class="col-12 py-sm-3 my-sm-3 col-md-4 container-fluid shadow-sm">
+        <img src="img/portfolio/thumb-02.jpg" alt="" height="300px" width="350px">
+        <h4>Lorem ipsum dolor sit amet.</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, suscipit rerum quam dolorem eveniet unde quibusdam. Fugiat nam beatae quaerat deserunt molestiae et dolorem reprehenderit maiores eius. Odio, eius totam!</p>
+      </div>
+      <div class="col-12 py-sm-3 my-sm-3 col-md-4  container-fluid shadow-sm">
+        <img src="img/portfolio/thumb-06.jpg" alt="" height="300px" width="350px">
+        <h4>Lorem ipsum dolor sit amet.</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, suscipit rerum quam dolorem eveniet 
+           unde quibusdam. Fugiat nam beatae quaerat deserunt molestiae et dolorem reprehenderit maiores eius. eius totam!
+        </p>
+      </div>
+
+      <div class="col-12 py-sm-3 my-sm-3 col-md-4 container-fluid shadow-sm">
+       <img src="img/portfolio/thumb-03.jpg" alt="" height="300px" width="350px">
+       <h4>Lorem ipsum dolor sit amet.</h4>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, suscipit rerum quam dolorem eveniet 
+        unde quibusdam. Fugiat nam beatae quaerat deserunt molestiae et dolorem reprehenderit maiores eius. Odio, 
+        eius totam!
+      </p>
+</div>
+    </div>
+  </div>
+  <!-- Les magazines des enchères -->
+
+</div>
+
+
+<!-- CONTENT -->
+<!-- FOOTER -->
+
+<footer class="text-light p-lg-5" style="background-color: black;">
+  <div class="container m-auto">
+    <div class="row">
+      <div class="col-md-3 col-sm-6" >
+        <h4>Liens Utiles</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">ACCEUIL</a></li>
+          <li><a href="#">VENDRE</a></li>
+          <li><a href="#">ACHETER</a></li>
+          <li><a href="#">LE MAGAZINE DES ENCHERES</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h4>Catégories Populaires</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Art et décoration</a></li>
+          <li><a href="#">Ameublement</a></li>
+          <li><a href="#">Véhicules et Engins</a></li>
+          <li><a href="#">Voiture de Sport et de Collection</a></li>
+          <li><a href="#">Informatique et Téléphonie</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h4>Catégorie Secondaire </h4>
+        <ul class="list-unstyled ">
+          <li><a href="#">Livres</a></li>
+          <li><a href="#">Jouets</a></li>
+          <li><a href="#">Electroménagère Matériel Pro</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Mode et Bijou</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h4>Autres</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Mentions Légals</a></li>
+          <li><a href="#">Politique de Confidentialité</a></li>
+          <li><a href="#">Notre histoire</a></li>
+          <li><a href="#">Conditions d'utilisations</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- /top footer -->
+
+		</footer>
+<script src="js/index.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/jquery.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="owl-carousel/owl.carousel.min.js"></script>  
+
+
+ 
+</body>
+</html>

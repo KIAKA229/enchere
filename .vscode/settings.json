@@ -1,0 +1,6 @@
+{
+  "files.autoSave": "off",
+  "editor.columnSelection": true,
+  "diffEditor.codeLens": true,
+  "search.defaultViewMode": "tree"
+}
