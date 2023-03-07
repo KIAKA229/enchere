@@ -1,25 +1,5 @@
 {
-  "name": "projet-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KIAKA229/enchere.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KIAKA229/enchere/issues"
-  },
-  "homepage": "https://github.com/KIAKA229/enchere#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "firebase": "^9.17.2",
-    "node": "^19.6.1",
-    "nodemon": "^2.0.21"
+    "firebase-admin": "^11.5.0"
   }
 }
